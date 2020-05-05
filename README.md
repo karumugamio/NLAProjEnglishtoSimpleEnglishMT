@@ -20,12 +20,16 @@ https://www.aclweb.org/anthology/P17-2014.pdf
 
 Appraoch : 
 
-Baseline SMT (In Progess) : 
+Baseline SMT  : 
 1) Create a word based Translation Probablity model 
 2) Create a Language Model 
 3) Combine Transaltion Probablity and Language model with H.M.M to Create a Functional SMT Model 
+4) This model has Bleu Score of 0.1499
 
 NMT Approach : 
 1) Seq 2 Seq - Model Building Task Failed because of computational requirements. Unable to make the model converge to get a non giberrish results
 2) Transformers Approach : Able to Build a Transformer model with ~12500 Sentence Pair sub data. 
+We created two different runs of our transformer model with different number of epochs
+a) for First run with 20 Epochs - Model has Bleu Score of 0.2148
+b) for Second Run with 28 Epochs - Model has bleu Score of 0.2303
 ....
