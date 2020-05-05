@@ -1,5 +1,5 @@
 # NLA Project 
-# English to Simple English Machine Translation - Text Simplification 
+## English to Simple English Machine Translation - Text Simplification 
 
 
 This is Implementation For the Course Project for NLA CS573  Spring 2020. 
@@ -30,6 +30,6 @@ NMT Approach :
 1) Seq 2 Seq - Model Building Task Failed because of computational requirements. Unable to make the model converge to get a non giberrish results
 2) Transformers Approach : Able to Build a Transformer model with ~12500 Sentence Pair sub data. 
 We created two different runs of our transformer model with different number of epochs
-a) for First run with 20 Epochs - Model has Bleu Score of 0.2148
-b) for Second Run with 28 Epochs - Model has bleu Score of 0.2303
+  2.1) for First run with 20 Epochs - Model has Bleu Score of 0.2148
+  2.2) for Second Run with 28 Epochs - Model has bleu Score of 0.2303
 ....
