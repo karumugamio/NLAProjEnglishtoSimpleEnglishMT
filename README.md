@@ -1,4 +1,5 @@
-# NLAProjEnglishtoSimpleEnglishMT
+# NLA Project 
+# English to Simple English Machine Translation - Text Simplification 
 
 
 This is Implementation For the Course Project for NLA CS573  Spring 2020. 
