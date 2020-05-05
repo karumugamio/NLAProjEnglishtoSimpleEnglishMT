@@ -25,5 +25,6 @@ Baseline SMT (In Progess) :
 3) Combine Transaltion Probablity and Language model with H.M.M to Create a Functional SMT Model 
 
 NMT Approach : 
-1) Seq 2 Seq -
+1) Seq 2 Seq - Model Building Task Failed because of computational requirements. Unable to make the model converge to get a non giberrish results
+2) Transformers Approach : Able to Build a Transformer model with ~12500 Sentence Pair sub data. 
 ....
